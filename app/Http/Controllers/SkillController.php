@@ -84,7 +84,7 @@ class SkillController extends Controller
             'name'=>['required', 'min:3']
         ]);
         if($request->hasFile('image')){
-            Storage::delete($image);
+            Storage::delete($skill->image);
             $image = $request->file('image')->store('skills');
         }
 
