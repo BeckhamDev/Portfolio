@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer base {
     body {
@@ -33,7 +34,7 @@
         @apply h-[48px];
     }
     .input {
-        @apply bg-light-secondary dark:bg-dark-seconary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-lg focus:outline focus:outline-1 focus:outline-accent;
+        @apply bg-light-secondary dark:bg-dark-secondary text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-lg focus:outline focus:outline-1 focus:outline-accent;
     }
     .textarea {
         @apply bg-light-secondary dark:bg-dark-secondary resize-none w-full outline-none p-6 rounded-lg h-[200px] focus:outline focus:outline-1 focus:outline-accent;

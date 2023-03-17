@@ -22,7 +22,7 @@ module.exports = {
             },
         },
         extend: {
-            collors: {
+            colors: {
                 "light-primary": "#FAF1E6",
                 "light-secondary": "#FDFAF6",
                 "light-tail-100": "#A9DED2",
@@ -35,7 +35,7 @@ module.exports = {
                     DEFAULT: "#AC6B34",
                     hover: "#925a2b",
                 },
-                paragraph: "#878e99",
+                paragraph: "#878E99",
                 blue: colors.blue,
                 indigo: colors.indigo,
                 green: colors.green,
