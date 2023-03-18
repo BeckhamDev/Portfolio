@@ -26,7 +26,7 @@
                     <button
                         class="btn btn-md bg-accent hover:bg-light-secondary md:btn-lg hover:text-light-tail-500 dark:hover:bg-dark-secondary md:btn-lg dark:hover:text-dark-navy-100 transition-all"
                     >
-                        Contact-me
+                        My Projects
                     </button>
                 </div>
                 <div
